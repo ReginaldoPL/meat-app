@@ -1,6 +1,6 @@
-<div *ngIf = "!items" class="col-xs-12 table-responsive">
+<div  class="col-xs-12" *ngIf = "!items || items.length==0">
   <p>
-      Não há itens no seu carrinho. Que tal começa por <a [routerLink]="['/restaurant']">aqui</a>
+      Não há itens no seu carrinho. Que tal começar por <a [routerLink]="['/restaurant']">aqui</a>
   </p>
 </div>
 
