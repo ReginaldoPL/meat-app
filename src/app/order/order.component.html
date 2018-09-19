@@ -15,7 +15,18 @@
         </div>
       </div>
 
-      <div class="row invoice-info">
+      <div class="row ">
+        <div class="col-xs-12">
+          <p class="lead">Seus Dados:</p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <mt-input-container errorMessage="Campo obrigatório e com 5 caracteres" label="Nome">
+            <input name="name" class="form-control" ngModel required minlength="5" autocomplete="off" placeholder="Endereço" />
+          </mt-input-container>
+        </div>
+        </div>
+
+      <div class="row ">
         <div class="col-xs-12">
           <p class="lead">Endereço de Entrega:</p>
         </div>
